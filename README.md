@@ -1,8 +1,8 @@
 esvm
 ================
 
-[![Build Status](https://travis-ci.com/silviucpp/esvm.svg?branch=master)](https://travis-ci.com/github/silviucpp/esvm)
-[![GitHub](https://img.shields.io/github/license/silviucpp/esvm)](https://github.com/silviucpp/esvm/blob/master/LICENSE)
+[![Build Status](https://travis-ci.com/silviucpp/esvm.svg?branch=main)](https://travis-ci.com/github/silviucpp/esvm)
+[![GitHub](https://img.shields.io/github/license/silviucpp/esvm)](https://github.com/silviucpp/esvm/blob/main/LICENSE)
 [![Hex.pm](https://img.shields.io/hexpm/v/esvm)](https://hex.pm/packages/esvm)
 
 A simple, easy-to-use, and efficient erlang library for Support Vector Machine (SVM) classification and regression based on [libsvm](https://github.com/cjlin1/libsvm). It solves C-SVM classification, nu-SVM
