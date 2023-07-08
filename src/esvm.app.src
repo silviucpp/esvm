@@ -1,0 +1,12 @@
+{application, esvm, [
+    {description, "An erlang library for SVM classification and regression based on libsvm."},
+    {vsn, "1.0.0"},
+    {registered, []},
+    {mod, {esvm_app, []}},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env,[]},
+    {modules, []}
+]}.
