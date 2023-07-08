@@ -14,7 +14,6 @@ to the nearest training data points of any class, ensuring superior generalizati
 
 This method offers several advantages. It exhibits remarkable performance in high-dimensional spaces and effectively manages memory usage by utilizing a subset of training points in its decision function. However, it may not be as efficient when the number of features exceeds the number of samples. 
 
-
 Quick start
 -----------
 
@@ -43,6 +42,21 @@ FeaturesCount = length(Features),
     {<<"kernel_type">>, ?KERNEL_TYPE_RBF}
 ]).
 ```
+
+Available parameters you can tune when creating a model:
+
+- `svm_type` : One of `SVM_TYPE_*` from `esvm.hrl`. Default to `SVM_TYPE_C_SVC`.
+- `kernel_type`: One of `KERNEL_TYPE_*` from `esvm.hrl`. Default to `KERNEL_TYPE_RBF`.
+- `degree`: Set degree in kernel function (default `3`).
+- `gamma`: Set gamma in kernel function (default to: `1/max feature length`).
+- `coef0`: Set coef0 in kernel function (default `0`).
+- `cache_size`: Set cache memory size in MB (default `100`).
+- `eps`: Set tolerance of termination criterion (default `0.001`).
+- `C`: set the parameter `C` (cost) of C-SVC, epsilon-SVR, and nu-SVR (default `1`).
+- `nu`: set the parameter `nu` of nu-SVC, one-class SVM, and nu-SVR (default `0.5`).
+- `p`:  set the epsilon in loss function of epsilon-SVR (default `0.1`).
+- `shrinking`: whether to use the shrinking heuristics, 0 or 1 (default `1`).
+- `probability`: whether to train a model for probability estimates, 0 or 1 (default `0`).
 
 ### Save a model
 
