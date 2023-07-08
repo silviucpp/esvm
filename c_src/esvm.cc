@@ -5,6 +5,7 @@
 #include "svm.h"
 
 #include <vector>
+#include <algorithm>
 #include <set>
 
 typedef std::vector<svm_node> FeatureVector;

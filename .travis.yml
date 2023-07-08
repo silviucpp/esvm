@@ -6,7 +6,7 @@ matrix:
   include:
     - os: linux
       dist: bionic
-      otp_release: 23.3.1
+      otp_release: 24.3.1
 
     - os: linux
       dist: focal
