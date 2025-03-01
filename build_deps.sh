@@ -11,7 +11,7 @@ CPUS=`getconf _NPROCESSORS_ONLN 2>/dev/null || sysctl -n hw.ncpu`
 LIBSVM_DESTINATION=libsvm
 LIBSVM_REPO=https://github.com/cjlin1/libsvm.git
 LIBSVM_BRANCH=master
-LIBSVM_TAG=v331
+LIBSVM_TAG=v335
 LIBSVM_SUCCESS=svm.cpp
 
 fail_check()

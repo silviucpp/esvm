@@ -2,7 +2,7 @@
     {description, "An erlang library for SVM classification and regression based on libsvm."},
     {licenses, ["BSD-3"]},
     {links,[{"Github","https://github.com/silviucpp/esvm"}]},
-    {vsn, "1.0.0"},
+    {vsn, "1.1.0"},
     {registered, []},
     {mod, {esvm_app, []}},
     {applications, [
