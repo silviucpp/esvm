@@ -29,5 +29,5 @@ ifeq ($(UNAME_SYS), darwin)
 				-Wl,-U,_enif_inspect_binary
 endif
 
-CXXFLAGS += -DNDEBUG -g -Wextra -Werror -Wno-deprecated-declarations -Wno-missing-field-initializers -fno-exceptions -fno-rtti -std=c++11
+CXXFLAGS += -DNDEBUG -g -Wextra -Werror -Wno-deprecated-declarations -Wno-stringop-overflow -Wno-missing-field-initializers -fno-exceptions -fno-rtti -std=c++11
 LDFLAGS  += -lstdc++
